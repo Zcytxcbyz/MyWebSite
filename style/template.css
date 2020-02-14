@@ -1,0 +1,33 @@
+/* CSS Document */
+*{
+	font-family: Microsoft YaHei;
+}
+body {
+    margin: 0;
+}
+
+.top {
+    height: 50px;
+    width: 100%;
+}
+
+.main {
+    height: 500px;
+	background-color: whitesmoke;
+}
+
+.bottom {
+    clear: both;
+    background-color: darkslategray;
+    height: 100px;
+}
+
+.bottominfo {
+    height: 70%;
+}
+
+.websiteinfo {
+    text-align: center;
+    color: white;
+    height: 30%;
+}

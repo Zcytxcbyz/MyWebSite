@@ -1,0 +1,90 @@
+.navbar {
+	font-family: Microsoft YaHei;
+    background-color: darkslategray;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar li:hover:not(.active) {
+    background-color: darkgray;
+}
+
+.navbar a.active {
+    background-color: steelblue;
+}
+
+.navbar a.active:hover {
+    background-color: CornflowerBlue;
+}
+
+.login {
+	float: right;
+	text-align: center;
+	padding: 14px 16px;
+	cursor: pointer;
+}
+.login a{
+	height: 100%;
+	color: white;
+	text-decoration: none;
+}
+.login:hover a{
+	color: darkturquoise;
+}
+
+.search {
+	height: 50px;
+	width: 50px;
+	float: right;
+	border: none;
+	cursor: pointer;
+	background-color: darkslategray;
+	background-image: url(../image/search.png);
+	background-size:30px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.search:hover{
+	background-color: darkgray;
+}
+
+.search:active{
+	background-color: lightgray;
+}
+
+.searchbox {
+	float: right;
+	padding: 12.5px 5px;
+}
+.searchbox input{
+	height: 20px;
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgray;
+	background-color: whitesmoke;
+}
+.searchbox input:hover{
+	border-color: dodgerblue;
+}
